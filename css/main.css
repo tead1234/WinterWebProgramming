@@ -36,8 +36,8 @@ span{
     box-shadow: 5px 5px;
 }
 .container{
-    width: 600px;
-    height: 1000px; 
+    width: 300px;
+    height: 100px; 
     /* 컨테이너 크기는 다 정해놓는게 좋다 */
 }
 .header{
@@ -49,19 +49,61 @@ span{
     width: 30%;
     height: 50%;
     background-color: chocolate;
-    float: left;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
 }
 .right{
     width: 70%;
     height: 50%;
     background-color: blue;
-    float: left;
+    display: inline-block;
+    /* float: left; */
 }
 /* float를 쓰니깐 붕떠서 footer가 씹힘 */
 .footer{
     width: 100%;
     height: 100px;
     background-color: darkblue;
-    clear: both;
+    /* clear: both; */
 }
 /* clear float해결법 */
+.a{
+    width: 70%;
+    height: 50%;
+    float: left;
+    font-size: 5px;
+}
+.b{
+    clear: both;
+}
+.pic{
+    width: 30%;
+    height: 50%;
+    float: left;
+   
+}
+h4{
+    padding-bottom: 30px;
+}
+img{
+    max-height: 100px;
+}
+.profile_image{
+    width: 20px;
+    float: left;
+}
+#name{
+    float: left;
+    margin-top: 4px;
+}
+.navbar li{    
+    display: inline-block; 
+    /* 공백은 클래스 안에 넣기  >> 모든 자손을 다 포험*/
+    /*  ">"  직계 자식만 */
+}
+.navbar a{    
+    font-size: 16px; 
+    /* 공백은 클래스 안에 넣기  >> 모든 자손을 다 포험*/
+    /*  ">"  직계 자식만 */
+}
