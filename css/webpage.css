@@ -1,0 +1,48 @@
+.main-background{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/background.jfif);
+    background-size: contain; 
+    margin-top: 0px;
+    /* 사진크기에 맞추기 */
+    /* background-size: cover;  */
+    /* div박스 다채우기  */
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(60%);
+}
+.main-background h4{
+    color: black;
+    font-size: 30px;
+    margin-left: 40%; 
+    margin-top: 1px;  
+}
+.maintext{
+    margin-left: 30%;  
+}
+.main-button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    /* 기준점을 잡아주는 속성(내 위치 기준), 공중에 뜸 */
+    /* fix는 화면에 아예 고정시키는 속성 
+    absolute 는 relative 속성을 가진 부모태그 아래에 놓음
+    부모태그를 기준으로 움직임*/
+    
+    top: 100px;
+    left: 50%;
+}
+.grey-box{
+    position: relative;
+    background-color: grey;
+    max-width: 700px;
+    width: 80%;
+    height: 300px;
+    left: 300px;
+    top: -50px;
+    border-bottom-color: red;
+    box-sizing: border-box;
+}
