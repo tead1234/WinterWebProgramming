@@ -1,0 +1,17 @@
+.container{
+    margin-top: 1px;
+    width: 50%;
+    height: 50%;
+}
+.last{
+    position: relative;
+    top: -80px;
+    left: 200px;
+    height: 1px;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+textarea{
+    width: 350px;
+    height: 200px;
+}

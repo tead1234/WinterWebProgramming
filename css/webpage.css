@@ -3,27 +3,30 @@
     height: 700px;
     background-image: url(../img/background.jfif);
     background-size: contain; 
-    margin-top: 0px;
+    padding-top: 1px;
     /* 사진크기에 맞추기 */
     /* background-size: cover;  */
     /* div박스 다채우기  */
     background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(60%);
+    filter: brightness(100%);
 }
-.main-background h4{
-    color: black;
-    font-size: 30px;
+.Title{
+    color: white;
+    font-size: 50px;
     margin-left: 40%; 
-    margin-top: 1px;  
+    margin-top: 100px;
+    filter: brightness(100%);  
 }
 .maintext{
     margin-left: 30%;  
+    font-size: 30px;
+    font-style: italic;
 }
 .main-button{
     padding: 15px;
     font-size: 20px;
-    background-color: white;
+    background-color: rgb(250, 244, 244);
     border: none;
     border-radius: 5px;
     position: relative;
@@ -44,5 +47,16 @@
     left: 300px;
     top: -50px;
     border-bottom-color: red;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    /* 박스 사이즈를 보더라인까지 포함해서 계산해준다 */
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: violet solid;
+}
+input[type=email]{
+    padding: 5px;
+    border-radius: 5px;
+    border: black solid;
 }
